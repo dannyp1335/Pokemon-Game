@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1738095664892958}
+  m_IsPrefabParent: 1
+--- !u!1 &1738095664892958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4777869780124176}
+  - component: {fileID: 33852419477662228}
+  - component: {fileID: 23468999462155306}
+  - component: {fileID: 95946493620965028}
+  - component: {fileID: 54580720496311782}
+  - component: {fileID: 65319316340814426}
+  - component: {fileID: 114093038733625768}
+  - component: {fileID: 114927794881588614}
+  m_Layer: 0
+  m_Name: SlowbroEvolve
+  m_TagString: Evolve
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4777869780124176
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1738095664892958}
+  m_LocalRotation: {x: 0.000000059604645, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 19.499641, y: 0.5, z: 367.4644}
+  m_LocalScale: {x: 0.015, y: 0.015, z: 0.015}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23468999462155306
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1738095664892958}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: d10c24ed5d536694c914df3a0c367f50, type: 2}
+  - {fileID: 2100000, guid: c32048f8527758d4e87f8384c4fedf93, type: 2}
+  - {fileID: 2100000, guid: 6a0c71c2dd448be47a961372fd155620, type: 2}
+  - {fileID: 2100000, guid: 6b06e33570b68fb42b09f21291284709, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33852419477662228
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1738095664892958}
+  m_Mesh: {fileID: 4300000, guid: 61dee3231fd503148b17c70d89385eb9, type: 3}
+--- !u!54 &54580720496311782
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1738095664892958}
+  serializedVersion: 2
+  m_Mass: 79
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65319316340814426
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1738095664892958}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 126.9944, y: 147.8856, z: 212.6076}
+  m_Center: {x: -0.000005722046, y: 73.9392, z: -30.1702}
+--- !u!95 &95946493620965028
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1738095664892958}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 61dee3231fd503148b17c70d89385eb9, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114093038733625768
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1738095664892958}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa696a6b8adc1f40bf42043d9c8bb8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moves:
+  - name: Water Pulse
+    type: Water
+    power: 60
+    accuracy: 100
+    isStatusEffect: 1
+    statusEffectValue: 5
+    effectChance: 10
+    priorityMove: 0
+    specialMove: 1
+    physicalMove: 0
+    statChanger: 0
+    statValue: 0
+    statChance: 0
+    stageChanger: 0
+    selfInflict: 0
+  - name: Amnesia
+    type: Psychic
+    power: 0
+    accuracy: 1000
+    isStatusEffect: 0
+    statusEffectValue: 0
+    effectChance: 0
+    priorityMove: 0
+    specialMove: 0
+    physicalMove: 0
+    statChanger: 1
+    statValue: 3
+    statChance: 100
+    stageChanger: 2
+    selfInflict: 1
+  - name: Psychic
+    type: Psychic
+    power: 90
+    accuracy: 100
+    isStatusEffect: 0
+    statusEffectValue: 0
+    effectChance: 0
+    priorityMove: 0
+    specialMove: 1
+    physicalMove: 0
+    statChanger: 1
+    statValue: 3
+    statChance: 10
+    stageChanger: 1
+    selfInflict: 0
+  - name: Headbutt
+    type: Normal
+    power: 70
+    accuracy: 100
+    isStatusEffect: 0
+    statusEffectValue: 0
+    effectChance: 0
+    priorityMove: 0
+    specialMove: 0
+    physicalMove: 1
+    statChanger: 0
+    statValue: 0
+    statChance: 0
+    stageChanger: 0
+    selfInflict: 0
+--- !u!114 &114927794881588614
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1738095664892958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fda405830507a549a8a8c139509858d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Slowbro
+  maxHealth:
+    baseValue: 95
+  currentHealth:
+    baseValue: 0
+  attack:
+    baseValue: 75
+  defense:
+    baseValue: 110
+  spAttack:
+    baseValue: 100
+  spDefense:
+    baseValue: 80
+  speed:
+    baseValue: 30
+  type: Water
+  type2: Psychic
+  catchRate: 75
+  baseExperienceYield: 164
+  fainted: 0
+  wild: 0
+  conditions: 
+  minSpawnTime: 70
+  maxSpawnTime: 95
+  level: 10
+  minLevel: 37
+  maxLevel: 45
+  currentExp: 0
+  experienceToNextLevel: 0
+  evolveLevel: 101
+  evolvePokemon: {fileID: 0}
+  fpsController: {fileID: 0}
+  pokemonSprite: {fileID: 21300000, guid: ae9867c185b0fe342b99a0eb70e875a1, type: 3}
